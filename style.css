@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-image: url("/images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    text-align: right;
+    padding: 200px 200px 150px 800px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.header-description {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+header button{
+    color: #006DBA;
+}
