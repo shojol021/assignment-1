@@ -35,3 +35,42 @@ button{
 header button{
     color: #006DBA;
 }
+
+
+.failures{
+    display: flex;
+    align-items: center;
+    margin: 100px 300px 80px 200px;
+}
+
+.my-failures{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.failures-description{
+    margin-bottom: 20px;
+    color: gray;
+}
+
+ul{
+    list-style-image: url("/images/icons/check-solid.svg");
+    color: gray;
+    padding: 0;
+    margin: 10px;
+}
+
+li{
+    margin: 10px 0px;
+}
+
+.my-plans{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.plans-elements{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 100px 200px;
+}
