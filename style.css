@@ -55,7 +55,7 @@ header button {
 }
 
 ul {
-    list-style-image: url("/images/icons/check-solid.svg");
+    list-style-image: url("images/icons/check-solid.svg");
     color: gray;
     padding: 0;
     margin: 10px;
@@ -131,7 +131,7 @@ span {
 /* banner section */
 
 .banner {
-    background-image: url("/images/watch.png"), linear-gradient(to right, #006DBA, transparent);
+    background-image: url("images/watch.png"), linear-gradient(to right, #006DBA, transparent);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
