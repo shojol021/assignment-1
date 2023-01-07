@@ -8,7 +8,7 @@ header {
     background-image: url("/images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 380px;
+    height: auto;
     text-align: right;
     padding: 200px 200px 150px 800px;
 }
@@ -36,11 +36,12 @@ header button{
     color: #006DBA;
 }
 
+/* My failures section */
 
 .failures{
     display: flex;
     align-items: center;
-    margin: 100px 300px 80px 200px;
+    margin: 70px 300px 70px 200px;
 }
 
 .my-failures{
@@ -63,9 +64,15 @@ li{
     margin: 10px 0px;
 }
 
+hr{
+    margin: 0 200px;
+}
+
+/* My plan section */
+
 .my-plans{
     font-size: 40px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     text-align: center;
 }
 
@@ -73,4 +80,95 @@ li{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px 100px 200px;
+}
+
+.plans{
+    text-align: center;
+    font-size: 25px;
+}
+
+.plans p{
+    color: gray;
+}
+
+/* banner section */
+
+.banner{
+    background-image: url("/images/watch.png"), url("/images/gradient1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    margin: 100px 200px;
+    height: 276px;
+}
+
+.banner h2{
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 38px;
+}
+
+.banner button{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+button{
+    color: #006DBA;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.future{
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-right: 500px;
+}
+
+.future h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.footer-description, footer p{
+    margin-bottom: 16px;
+}
+
+.future img{
+    width: 36px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.subscribe{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
+
+input{
+    width: 200px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+footer button{
+    color: white;
+    background-color: #006DBA;
+    margin-top: 20px;
 }
