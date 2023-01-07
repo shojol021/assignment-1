@@ -91,6 +91,42 @@ hr{
     color: gray;
 }
 
+/* about me */
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.about-me h2{
+    text-align: center;
+}
+
+.my-description{
+    color: gray;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.about-me2{
+    background-color: #A8DCFF;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 50px;
+    color: gray;
+    padding: 0 120px;
+    padding-top: 30px;
+}
+
+span{
+    font-size: 70px;
+}
+
+
 /* banner section */
 
 .banner{
@@ -118,6 +154,7 @@ button{
     color: #006DBA;
 }
 
+/* footer */
 footer{
     background-color: black;
     height: 500px;
