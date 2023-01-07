@@ -121,6 +121,7 @@ hr {
     color: gray;
     padding: 0 120px;
     padding-top: 30px;
+    box-shadow: 3px 3px 20px black;
 }
 
 span {
