@@ -131,7 +131,7 @@ span {
 /* banner section */
 
 .banner {
-    background-image: url("/images/watch.png"), url("/images/gradient1.png");
+    background-image: url("/images/watch.png"), linear-gradient(to right, #006DBA, transparent);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -170,13 +170,12 @@ footer {
 .future {
     margin-top: 100px;
     margin-left: 200px;
-    padding-right: 500px;
+    padding-right: 300px;
 }
 
 .future h2 {
     font-size: 38px;
     margin-bottom: 10px;
-    font-weight: 20000;
 }
 
 .footer-description,
@@ -219,4 +218,12 @@ footer button {
     color: white;
     background-color: #006DBA;
     margin-top: 20px;
+}
+
+/* This has added in the last moment, so I couldn't keep this on footer as existing footer css styles conflicting a lot. So I created a new div under footer  */
+#copyright{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding-bottom: 16px;
 }
